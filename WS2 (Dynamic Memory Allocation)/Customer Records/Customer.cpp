@@ -18,7 +18,6 @@ using namespace std;
 
 namespace sdds {
 
-    // complete
 
     void read(char* str, int len) {  // Fully provided
         if (cin.peek() == '\n') {
@@ -27,8 +26,6 @@ namespace sdds {
         cin.getline(str, len);
     }
 
-    
-    // complete
    
    // The below function, EmptyRecord will set customer data members to an empty state.
     void EmptyRecord(Customers& custumer)
@@ -171,4 +168,3 @@ namespace sdds {
     }
 
   }
-
